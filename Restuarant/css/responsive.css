@@ -1,0 +1,64 @@
+
+@media(max-width: 991px){
+    menu ul li a{
+        font-size: 30px;
+
+
+    }
+    .about-left{
+        width: 100%;
+    }
+    .about-right{
+        width: 100%;
+    }
+    .food-img{
+        width: 48%;
+    }
+    .member{
+        width: 48%;
+    }
+   
+}
+@media(max-width: 750px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        
+        top: 40px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .menu ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .menu ul li a{
+        font-size: 20px;
+    }
+    a:hover{
+        background: none;
+        color: green;
+    }
+    #check :checked ~ ul{
+        left: 0;
+    }
+
+}
+
+@media(max-width: 410px){
+    .food-img{
+        width: 94%;
+    }
+    .member{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+  
+  
+}
